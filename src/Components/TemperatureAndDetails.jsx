@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { UilArrowUp, UilArrowDown, UilTemperature, UilTear, UilWind, UilSun, UilSunset, } from "@iconscout/react-unicons";
 import { formatToLocalTime, iconUrlFromCode } from '../services/WeatherServices';
 

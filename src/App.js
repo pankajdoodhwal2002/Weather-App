@@ -3,7 +3,7 @@ import TopButtons from "./Components/TopButtons";
 import Inputs from "./Components/Inputs";
 import TimeAndLocation from "./Components/TimeAndLocation";
 import TemperatureAndDetails from "./Components/TemperatureAndDetails";
-import Forecast from './Components/Forecast';
+// import Forecast from './Components/Forecast';
 import { useEffect, useState } from "react";
 import getFormatedWeatherData from "./services/WeatherServices";
 import { ToastContainer, toast } from "react-toastify";
@@ -37,8 +37,6 @@ function App() {
 
     return "from-yellow-700 to-orange-700";
   };
-
-  const notify = () => toast("Wow so easy!");
 
   return (
     <div
